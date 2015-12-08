@@ -3,7 +3,6 @@ OMNIOS_ROOT_DIR := $(CURDIR)/..
 include $(OMNIOS_ROOT_DIR)/mk/omnios.common.mk
 
 DIRS-y += nvme
-DIRS-y += nvme_target
 
 .PHONY: all clean $(DIRS-y)
 

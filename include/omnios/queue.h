@@ -10,7 +10,7 @@
  *  Include a header with these additional features on Linux only.
  */
 #ifndef __FreeBSD__
-#include <spdk/queue_extras.h>
+#include <omnios/queue_extras.h>
 #endif
 
 #endif

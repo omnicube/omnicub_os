@@ -7,8 +7,8 @@
 #include <rte_mempool.h>
 #include <rte_lcore.h>
 
-#include "spdk/nvme.h"
-#include "spdk/pci.h"
+#include "omnios/nvme.h"
+#include "omnios/pci.h"
 
 struct rte_mempool *request_mempool;
 
